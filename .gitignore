@@ -1,0 +1,6 @@
+# all the local scratch files
+
+pkg
+snappy-read-only
+src
+leveldb
