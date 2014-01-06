@@ -1,6 +1,6 @@
 WORKDIR :=$(shell pwd)
 
-PHONY := fetch libsnappy libleveldb levigo
+.PHONY : fetch libsnappy libleveldb levigo
 
 all: levigo
 
