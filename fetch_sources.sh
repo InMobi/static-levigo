@@ -12,5 +12,5 @@ set -e;
 (
 	MODIFIED_SOURCE=$WORKDIR/src/github.com/jmhodges/
 	mkdir -p $WORKDIR/src/github.com/jmhodges
-	git clone -b static-link git@github.com:anomalizer/levigo.git $MODIFIED_SOURCE/levigo || (cd $MODIFIED_SOURCE/levigo; git pull)
+	git clone -b static-link https://github.com/anomalizer/levigo.git $MODIFIED_SOURCE/levigo || (cd $MODIFIED_SOURCE/levigo; git pull)
 )
